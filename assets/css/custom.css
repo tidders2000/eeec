@@ -1,4 +1,82 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+@font-face {
+    font-family: 'padaukregular';
+    src: url('../fonts/padauk-regular-webfont.woff2') format('woff2'),
+         url('../fonts/padauk-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/* General */
+
+.btn{
+    background-color:#A9A9A9;
+    font-size: 1.4em;
+    font-weight: 500;
+    color: lightslategrey;
+
+}
+
+.submit{
+    background-color:#A9A9A9!important;
+    font-size: 1.4em;
+    font-weight: 500;
+    color: lightslategrey!important;
+
+}
+
+h1{
+    font-family: 'Raleway', sans-serif;
+    color:#5b75f6;
+}
+
+h2{
+    color:#5b75f6;
+    font-family: 'Raleway', sans-serif;
+}
+
+body{
+    font-family: 'padaukregular', sans-serif;
+}
+
+section{
+    padding-top: 100px;
+    padding-bottom:50px;
+}
+
+@media(max-width: 576px) { 
+.btn
+{
+    font-size: 0.8em;
+}
+
+}
+
+/*nav */
+
+nav ul li a{
+    color:white;
+    font-size: 1.1em;
+    text-transform: uppercase;
+}
+
+
+@media(max-width: 576px) { 
+    nav ul li a{
+     
+        font-size: 0.5em;
+        
+    }
+
+    .navbar-brand{
+        display:block;
+        margin:auto;
+}
+}
+
+
 
 /* video landing page */
 
@@ -56,10 +134,52 @@
     background: rgba(50,50,50,.95);
     box-shadow: 0 10px 20px rgba(50,50,50,.95);
 }
+/* carousel */
+.carousel-inner{
+ height:700px;
+}
 
-
+.carousel-item img{
+    height:700px;
+}
 /* services */
 
+.services-icon-holder{
+    text-align: center;
+
+}
+
+.services-icon-holder i{
+    font-size: 5em;
+    color:grey;
+}
+
+.quote-button{
+    display: block;
+text-align: center;
+padding-top: 50px;
+
+}
+
+@media (max-width: 769px) { 
+    .services-icon-holder i{
+        font-size: 2.5em;
+        color:grey;
+    }
+    h2{
+        font-size:1em;
+    }
+    section{
+        padding-top: 30px;
+    }
+
+ }
+
+ @media (max-width: 575.98px) { 
+    .services-icon-holder i{
+        font-size: 1.8em;
+    }
+}
 /* background for services block*/
 
 .marketing {
@@ -73,9 +193,41 @@
   margin-top: 0!important;
 }
 
+/* about */
+
+.eddie-photo{
+    border-radius: 50%;
+    height:400px ;
+    width:400px;
+}
+
+@media (max-width: 769px) { 
+    .eddie-photo{
+    height:250px ;
+    width:250px;
+    }
+}
+
+@media (max-width: 575.98px) { 
+    .eddie-photo{
+        padding-bottom: 20px;
+        margin:auto;
+        display: block;
+  border-radius: 5px;
+    }
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: #5b75f6;
+}
+
 /* contact form */
+.contact-sec{
+    background: rgb(246,246,246);
+    background: radial-gradient(circle, rgba(246,246,246,1) 0%, rgba(204,211,246,1) 57%, rgba(91,117,246,1) 100%);
+}
 .contact-sidebar{
-    background: #ff9b00;
+    background:darkgray;
     padding: 4%;
     border-top-left-radius: 0.5rem;
     border-bottom-left-radius: 0.5rem;
@@ -107,4 +259,80 @@
 }
 .contact-form button:focus{
     box-shadow:none;
+}
+
+/* small only */
+.small-heading {
+    margin-left: 10px;
+}
+
+
+@media(max-width: 576px) { 
+    .contact-sec{
+        background: white!important;
+    }
+}
+
+
+/*footer*/
+footer{
+    height:300px;
+    background-color:#282828;
+   padding-top:100px;
+}
+
+.footer-copyright {
+    color:white!important;
+}
+
+.footer-form{
+    padding-top:5%;
+}
+.footer-form i {
+    color:white;
+    font-size: 2.5em;
+    padding:10px;
+}
+
+.footer-form i:hover {
+    color:#5b75f6 ;
+    cursor: pointer;
+  }
+.input-mail{
+    border:none;
+    background-color:#282828;
+    border-bottom: #ffffff 3px solid;
+    width:80%;
+
+}
+
+.input-mail:focus {
+    border:none!important;
+    border-bottom: #5b75f6 3px solid;
+  }
+
+  .input-mail:after {
+    border:none!important;
+    border-bottom: #5b75f6 3px solid;
+  }
+
+.mail_button{
+    background-color:white ;
+}
+
+@media (max-width: 769px) { 
+
+    .input-mail{
+        width:50%;
+    }
+}
+
+@media(max-width: 576px) { 
+    .input-mail{
+        width:70%;
+    }
+
+    .media-holder {
+        text-align: center;
+    }
 }
