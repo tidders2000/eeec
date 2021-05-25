@@ -149,9 +149,20 @@ nav ul li a{
 
 }
 
+.services-icon-holder p{
+    display:block;
+    margin:auto;
+    width:80%;
+    font-size:20px;
+}
+
 .services-icon-holder i{
     font-size: 5em;
     color:grey;
+}
+
+.jetwash{
+    height:7em;
 }
 
 .quote-button{
@@ -161,7 +172,7 @@ padding-top: 50px;
 
 }
 
-@media (max-width: 769px) { 
+@media (max-width: 1300px) { 
     .services-icon-holder i{
         font-size: 2.5em;
         color:grey;
@@ -172,12 +183,19 @@ padding-top: 50px;
     section{
         padding-top: 30px;
     }
+    .services-icon-holder p{
+        font-size: 18px;
+        width:90%;
+}
 
  }
 
  @media (max-width: 575.98px) { 
-    .services-icon-holder i{
-        font-size: 1.8em;
+    .jetwash{
+        height: 2.8em;
+    }
+    .services-icon-holder p{
+            font-size: 16px;
     }
 }
 /* background for services block*/
@@ -199,6 +217,9 @@ padding-top: 50px;
     border-radius: 50%;
     height:400px ;
     width:400px;
+    -webkit-box-shadow: 2px 2px 5px 0px rgb(199, 196, 196);
+    -moz-box-shadow: 2px 2px 5px 0px rgba(199, 196, 196);
+    box-shadow: 2px 2px 5px 0px rgba(199, 196, 196);
 }
 
 @media (max-width: 769px) { 
@@ -222,6 +243,9 @@ padding-top: 50px;
 }
 
 /* contact form */
+.contact{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 .contact-sec{
     background: rgb(246,246,246);
     background: radial-gradient(circle, rgba(246,246,246,1) 0%, rgba(204,211,246,1) 57%, rgba(91,117,246,1) 100%);
