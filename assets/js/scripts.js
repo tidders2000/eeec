@@ -1,5 +1,11 @@
 
+
+
+
+
 $(document).ready(function() {
+
+
 //hide landing page image onscrfeen
 
     $(window).scroll(function(e) {
@@ -12,4 +18,8 @@ $(document).ready(function() {
         }
       });
 
+      
+
 });
+
+

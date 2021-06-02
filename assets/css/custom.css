@@ -9,6 +9,9 @@
     font-style: normal;
 
 }
+
+/* loader*/
+
 /* General */
 
 .btn{
@@ -35,6 +38,12 @@ h1{
 h2{
     color:#5b75f6;
     font-family: 'Raleway', sans-serif;
+}
+
+h3{
+    font-family: 'Raleway', sans-serif;
+    font-size: 4em;
+    color: oldlace;
 }
 
 body{
@@ -122,6 +131,9 @@ nav ul li a{
     opacity: 0.5;
     z-index: 1;
   }
+  .display-4{
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);50%);
+}
 /* hides landing page video*/
   .a{
       display:none;
@@ -144,6 +156,19 @@ nav ul li a{
 .carousel-item img{
     height:700px;
 }
+
+.slide-heading{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 20;
+    color: white;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);50%);
+
+}
+
+
 /* services */
 
 .services-icon-holder{
@@ -224,6 +249,12 @@ padding-top: 50px;
     box-shadow: 2px 2px 5px 0px rgba(199, 196, 196);
 }
 
+
+
+.tab-content>.tab-pane{
+    font-size: 1.2em;
+}
+
 @media (max-width: 769px) { 
     .eddie-photo{
     height:250px ;
@@ -287,6 +318,10 @@ padding-top: 50px;
     box-shadow:none;
 }
 
+.call{
+    color: #5b75f6;
+}
+
 /* small only */
 .small-heading {
     margin-left: 10px;
@@ -302,6 +337,22 @@ padding-top: 50px;
 /* signup */
 .sign-up{
     text-align: center;
+}
+.input-group {
+    width: 300px;
+    margin: auto;
+}
+.signup-text{
+    margin: auto;
+    font-size: 1.2em;
+    width: 50%;
+    display: block;
+}
+
+.sign-up i {
+    font-size: 5em;
+    color:#5b75f6;
+    padding-bottom: 10px;
 }
 
 /*footer*/
@@ -348,6 +399,10 @@ footer{
 
 .mail_button{
     background-color:white ;
+}
+
+.media-holder{
+    text-align: center;
 }
 
 @media (max-width: 769px) { 
