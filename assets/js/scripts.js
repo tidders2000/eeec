@@ -1,5 +1,15 @@
 
 
+    $(window).ready(function() {
+
+      // Preloader
+      $('.loader').hide();
+      $('.loader-mask').delay(350).hide('slow');
+
+ 
+
+  });
+
 
 
 
