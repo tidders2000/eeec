@@ -407,8 +407,16 @@ padding-top: 50px;
 }
 
 .sign-button{
-    font-size: 1em!important;
+    font-size: 1.5em!important;
     border:none;
+    display: block;
+    margin: auto;
+    margin-top: 20px;;
+}
+
+.g-recaptcha{
+    margin-top:20px;
+
 }
 
 /*footer*/
