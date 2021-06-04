@@ -186,9 +186,9 @@ nav ul li a{
     text-shadow: 0 1px 2px rgba(0,0,0,.6);50%);
 }
 /* hides landing page video*/
-  .a{
+  /* .a{
       display:none;
-  }
+  } */
 
   /* transparent navbar */
   header {
@@ -217,6 +217,21 @@ nav ul li a{
     color: white;
     text-shadow: 0 1px 2px rgba(0,0,0,.6);50%);
 
+}
+
+.carousel-control-prev-icon{
+    background-color:#5b75f6!important;
+}
+
+.carousel-control-next-icon{
+    background-color:#5b75f6!important;
+}
+
+@media (max-width: 575.98px) { 
+ .carousel-caption h3 {
+     font-size: 2em;
+     text-align: center!important;
+ }
 }
 
 
@@ -249,6 +264,8 @@ text-align: center;
 padding-top: 50px;
 
 }
+
+
 
 @media (max-width: 1300px) { 
     .services-icon-holder i{
@@ -286,7 +303,8 @@ padding-top: 50px;
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
   padding-top: 10%;
-  margin-top: 0!important;
+ 
+  margin-top: -15px!important;
 }
 
 /* about */
@@ -378,10 +396,22 @@ padding-top: 50px;
     margin-left: 10px;
 }
 
+.g-recaptcha div{
+    margin:auto!important;
+    padding-bottom: 20px;
+ 
+}
+
+.submit{
+    margin-top: 10px;
+}
 
 @media(max-width: 576px) { 
     .contact-sec{
         background: white!important;
+    }
+   .quote-button{
+        padding-left: 0;
     }
 }
 
