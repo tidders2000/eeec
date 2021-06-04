@@ -404,7 +404,7 @@ padding-top: 50px;
 
 .submit{
     margin-top: 10px;
-    font-size: 1.5em!important;
+    font-size: 1em!important;
 }
 
 @media(max-width: 576px) { 
