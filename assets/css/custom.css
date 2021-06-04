@@ -341,6 +341,9 @@ padding-top: 50px;
   -moz-box-shadow: none;
   box-shadow: none;
     }
+    .marketing{
+        height:800px;
+    }
 }
 
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
