@@ -137,8 +137,14 @@ nav ul li a{
         margin:auto;
 }
 }
+@media(max-width:320px) { 
 
-
+    nav ul li a{
+     
+        font-size: 0.4em;
+        
+    }
+}
 
 /* video landing page */
 
