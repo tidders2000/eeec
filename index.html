@@ -56,6 +56,9 @@
     </div>
   </div>
 
+  
+     <!-- video Landing -->
+<section style="padding-top: 0!important;">
   <nav class="navbar transparent  sticky-top " id="navbar-ex">
     <a class="navbar-brand" href="#">
       <img src="assets/img/Logo_Transparent.png"  class="logo" alt="logo">
@@ -77,10 +80,6 @@
       </li>
     </ul>
   </nav>
-
-  
-     <!-- video Landing -->
-
      <div class="video-background-holder a" id="video">
         <div class="video-background-overlay"></div>
           <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" >
@@ -102,9 +101,10 @@
           </div>
         </div><!-- end video-background-overlay-->
       </div>  
+    </section>
 
 
-    <div class="marketing" id="service" style="background-color:white;">
+    <div class="marketing" id="service" style="background-color:red;">
   
       <h1 class="text-center">Services</h1>
       <!-- Three columns of text below the carousel -->
@@ -367,7 +367,7 @@
 
     <!-- javascript -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <script src="assets/js/jquery-ui.min.js"></script>
+    <!-- <script src="assets/js/jquery-ui.min.js"></script> -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
     <script src="assets/js/scripts.js"></script>
 
@@ -386,36 +386,7 @@ cycle:true
 <!--[if lte IE 8]><script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script><![endif]-->
 
 
-	<script>
-$(document).ready(function () {
-  var trigger = $('.hamburger'),
-      overlay = $('.overlay'),
-     isClosed = false;
 
-    trigger.click(function () {
-      hamburger_cross();      
-    });
-
-    function hamburger_cross() {
-
-      if (isClosed == true) {          
-        overlay.hide();
-        trigger.removeClass('is-open');
-        trigger.addClass('is-closed');
-        isClosed = false;
-      } else {   
-        overlay.show();
-        trigger.removeClass('is-closed');
-        trigger.addClass('is-open');
-        isClosed = true;
-      }
-  }
-  
-  $('[data-toggle="offcanvas"]').click(function () {
-        $('#wrapper').toggleClass('toggled');
-  });  
-});
-	</script>
    
   </body>
 </html>
