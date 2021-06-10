@@ -32,7 +32,7 @@ $(document).ready(function() {
       $(window).scroll(function(e) {
           e.preventDefault();
           if ($(this).scrollTop() > 0) {
-            $('#video').hide().fadeOut('slow');
+            $('#video').addClass("important");
           }
           else {
             $('#video').show();

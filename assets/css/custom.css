@@ -12,6 +12,10 @@
 body{
     background-color: #5b75f6;
 }
+
+.important{
+    display: none;
+}
 /* loader*/
 .loader-mask {
     position: fixed;
