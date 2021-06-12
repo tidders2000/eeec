@@ -353,6 +353,11 @@ padding-top: 50px;
     .services-icon-holder p{
             font-size: 16px;
     }
+
+    .icon-row{
+        margin-right: 5px!important;
+        margin-left:5px!important
+    }
 }
 /* background for services block*/
 
